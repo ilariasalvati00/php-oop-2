@@ -2,10 +2,13 @@
 
 class Category{
 
-    public $animal_type;
+    public static $dog = "cane";
+    public static $cat = "gatto";
 
-    public function __construct(){
+    public $category;
 
+    public function __construct($categoria){
+        $this->category = $categoria
     }
 
 
